@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "build-client": "cd angular-app/ && ng build"
   },
   "dependencies": {
     "@angular/animations": "~11.2.6",
